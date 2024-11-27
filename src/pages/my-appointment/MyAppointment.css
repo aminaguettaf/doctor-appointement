@@ -1,0 +1,79 @@
+.my-appointment > p{
+    color: var(--titles-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+.my-appointment .appointment{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.my-appointment .doc-infos .img{
+    background-color: var(--bg-color);
+    flex: .4;
+}
+.my-appointment .doc-infos .img img{
+    width: 100%;
+}
+.my-appointment .doc-infos .text .name{
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--titles-color);
+}
+.my-appointment .doc-infos .text p.label{
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--first-grey-color);
+}
+.my-appointment .doc-infos .text p.info{
+    font-size: 13px;
+    color: var(--second-grey-color);
+}
+.my-appointment .appointment .btns{
+    display: block;
+    margin-top: 90px;
+}
+.my-appointment .appointment .btns button{
+    border: 1px solid #eee;
+    background-color: #fff;
+    color: var(--first-grey-color);
+    border-radius: 5px;
+    outline: none;
+    transition: all .3s;
+    font-size: 14px;
+    padding: 5px;
+    width: 200px;
+}
+.my-appointment .appointment .btns button:hover{
+    color: #fff;
+}
+.my-appointment .appointment .btns button.pay:hover{
+    background-color: var(--main-color);
+}
+.my-appointment .appointment .btns button.cancel:hover{
+    background-color: red;
+}
+.my-appointment .appointment .btns button.cancelled{
+    color: red;
+    border: 1px solid red;
+}
+@media (max-width:992px) {
+    .my-appointment .doc-infos .img{
+        flex: .5;
+    }
+}
+@media (max-width:776px) {
+    .my-appointment .appointment .doc-infos{
+        flex-direction: column;
+    }
+    .my-appointment .doc-infos .img{
+        flex: 1 !important;
+    }
+    .my-appointment .appointment .btns{
+        display: block;
+        margin-top: 100%;
+    }
+    .my-appointment .appointment .btns button{
+        width: 100%;
+    }
+}

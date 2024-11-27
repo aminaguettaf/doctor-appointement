@@ -1,0 +1,13 @@
+.main-title h3{
+    text-transform: uppercase;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+.main-title h3 .title1{
+    color: #707070;
+}
+.main-title h3 .title2{
+    font-weight: 600;
+    color: var(--titles-color);
+}

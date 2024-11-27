@@ -1,0 +1,13 @@
+.doctors-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+.top-doctors a.more{
+    background-color: var(--bg-color);
+    border-radius: 50px;
+    width: fit-content;
+    color: var(--second-grey-color);
+    margin: 40px auto;
+    display: block;
+}

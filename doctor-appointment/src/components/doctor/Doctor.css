@@ -1,0 +1,35 @@
+.doctor{
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.doctor:hover{
+    transform: translateY(-10px);
+    transition: transform .3s ease-in-out;
+}
+.doctor .img{
+    background-color: var(--bg-color);
+}
+.doctor img{
+    width: 100%;
+}
+.doctor .dot{
+    background-color: var(--green-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.doctor .available{
+    font-size: 12px;
+    color: var(--green-color);
+    font-weight: 600;
+}
+.doctor p{
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--first-grey-color);
+}
+.doctor h5{
+    color: var(--titles-color);
+    font-size: 18px;
+}

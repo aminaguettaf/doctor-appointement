@@ -1,0 +1,35 @@
+:root{
+  --main-color: #5F6FFF;
+  --bg-color: #EAEFFF;
+  --green-color: #22C55E;
+  --titles-color: #262626;
+  --first-grey-color: #5C5C5C;
+  --second-grey-color: #4B5563;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+html{
+  scroll-behavior: none;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
